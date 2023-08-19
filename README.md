@@ -13,4 +13,4 @@ yarn dev
 
 Load the extension into the browser by going to the extensions tab in chrome, turning on the developer mode and clicking `"load unpacked extension"` and selecting `build/chrome-mv3-dev` folder (the folder will appear upon running the dev command or building the extension)
 
-![Demo](https://raw.githubusercontent.com/portableCoder/Locatify/demo.gif)
+![Demo](https://raw.githubusercontent.com/portableCoder/Locatify/master/demo.gif)

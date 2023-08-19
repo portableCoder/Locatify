@@ -10,18 +10,3 @@ html {
 .btn {
   @apply p-4 flex items-center justify-center text-2xl font-bold bg-blue-500 rounded-md active:scale-95 scale-100 duration-200 transform active:bg-blue-400 text-white;
 }
-
-.flag {
-  font-family:
-    "Noto Color Emoji",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
