@@ -1,11 +1,13 @@
-import { CountButton } from "~features/count-button"
+import Header from "~components/Header"
+import LocationDisplay from "~components/LocationDisplay"
 
 import "~style.css"
 
 function IndexPopup() {
   return (
-    <div className="plasmo-flex plasmo-items-center plasmo-justify-center plasmo-h-16 plasmo-w-40">
-      <CountButton />
+    <div className="w-[500px] text-3xl flex flex-col gap-y-2 h-[500px] bg-white text-black">
+      <Header />
+      <LocationDisplay />
     </div>
   )
 }

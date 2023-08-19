@@ -1,6 +1,6 @@
 {
   "name": "location-extension",
-  "displayName": "Location extension",
+  "displayName": "Locatify",
   "version": "0.0.1",
   "description": "location display extension -- assesment for chatgptwriter",
   "author": "portableCoder",
@@ -10,6 +10,7 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "i18n-iso-countries": "^7.6.0",
     "plasmo": "0.82.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "4.1.0",
     "@types/chrome": "0.0.243",
+    "@types/leaflet": "^1.9.3",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
