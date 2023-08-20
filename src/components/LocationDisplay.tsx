@@ -15,7 +15,6 @@ const LocationDisplay = () => {
     try {
       const data = await fetchCountryCity()
       setData(data)
-      console.log(data, location)
     } catch (e) {
       setError(true)
     }
@@ -49,7 +48,7 @@ const LocationDisplay = () => {
           className="btn gap-x-2"
           disabled={isLoading}>
           {isLoading && <Spinner />}
-          {isLoading ? "Loading..." : "SHOW LOCATION"}
+          {isLoading ? "Loading..." : "Show my location"}
         </button>
       )}
     </div>
