@@ -1,5 +1,3 @@
-import * as React from "react"
-
 const SvgComponent = (props: React.HTMLProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} {...props}>
     <style>{"@keyframes spinner_AtaB{to{transform:rotate(360deg)}}"}</style>
